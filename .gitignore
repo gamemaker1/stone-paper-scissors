@@ -1,0 +1,4 @@
+# .gitignore
+# Git will ignore all the files and folders mentioned below.
+
+build/
