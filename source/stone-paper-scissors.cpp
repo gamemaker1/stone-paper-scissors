@@ -1,6 +1,5 @@
 // stone-paper-scissor.cpp
-// A game of stone, paper and scissor - pitting you
-// against the computer. Enjoy!
+// A game of stone, paper and scissor - pitting you against the computer. Enjoy!
 
 using namespace std;
 
@@ -18,14 +17,12 @@ const std::string magenta("\033[0;35m");
 const std::string cyan("\033[1;36m");
 const std::string reset("\033[0m");
 
-// Defines the values that denote stone, paper and scissor
-// in the game.
+// Defines the values that denote stone, paper and scissor in the game.
 const int STONE = 1;
 const int PAPER = 2;
 const int SCISSORS = 3;
 
-// Defines messages that might be printed to the console
-// during the game.
+// Defines messages that might be printed to the console during the game.
 const char* banner = "\n░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\n░█▀▀░▀█▀░█▀█░█▀█░█▀▀░░░█▀█░█▀█░█▀█░█▀▀░█▀▄░░░█▀▀░█▀▀░▀█▀░█▀▀░█▀▀░█▀█░█▀▄░█▀▀░\n░▀▀█░░█░░█░█░█░█░█▀▀░░░█▀▀░█▀█░█▀▀░█▀▀░█▀▄░░░▀▀█░█░░░░█░░▀▀█░▀▀█░█░█░█▀▄░▀▀█░\n░▀▀▀░░▀░░▀▀▀░▀░▀░▀▀▀░░░▀░░░▀░▀░▀░░░▀▀▀░▀░▀░░░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░\n░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\n\n";
 const char* start_message = "> Great! The three rounds of the game will now begin.\n> Good luck!\n";
 const char* win_message = "* You won this round - yum yum gee gee!\n";
